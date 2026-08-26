@@ -4,7 +4,7 @@ cask "visual-bar-timer" do
 
   url "https://github.com/nanonigit/VisualBarTimer/releases/download/v#{version}/VisualBarTimer.zip"
   name "VisualBarTimer"
-  desc "Kingjim-style visual bar timer for macOS"
+  desc "Intuitive visual LED bar timer for macOS"
   homepage "https://github.com/nanonigit/VisualBarTimer"
 
   app "VisualBarTimer.app"
