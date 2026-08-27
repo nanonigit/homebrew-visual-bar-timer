@@ -1,6 +1,6 @@
 cask "visual-bar-timer" do
-  version "1.2.3"
-  sha256 "1df0bafd37f7dc36d0549c6b368097c7137c472666c79d3cccc88c7d5e9c47e0"
+  version "1.2.5"
+  sha256 "642333d750890b30538b529efd6a319d21d372fb319bab01b9dc6c5c4044b7eb"
 
   url "https://github.com/nanonigit/VisualBarTimer/releases/download/v#{version}/VisualBarTimer.zip"
   name "VisualBarTimer"
