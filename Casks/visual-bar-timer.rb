@@ -4,13 +4,16 @@ cask "visual-bar-timer" do
 
   url "https://github.com/nanonigit/VisualBarTimer/releases/download/v#{version}/VisualBarTimer.zip"
   name "VisualBarTimer"
-  desc "Intuitive visual LED bar timer for macOS"
+  desc "Intuitive visual LED bar timer"
   homepage "https://github.com/nanonigit/VisualBarTimer"
+
+  depends_on arch: :arm64
+  depends_on macos: :ventura
 
   app "VisualBarTimer.app"
 
   zap trash: [
-    "~/Library/Preferences/com.naoki.VisualBarTimer.plist",
     "~/Library/Application Support/VisualBarTimer",
+    "~/Library/Preferences/com.naoki.VisualBarTimer.plist",
   ]
 end
